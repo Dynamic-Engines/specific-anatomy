@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class InsertionSort {
 
-    private static int[] input = {14, 12, 5, 3, 1 , 2};
+    private static int[] input = {14, 12, 5, 3, 1, 2};
 
     private static int[] output(int[] input) {
         for(int i = 1; i < input.length; i++ ) {
