@@ -9,8 +9,8 @@ public class MergeDesc {
 
         System.out.println("p: "+ p +", q: "+ q + ", r: "+ r +", nl: "+ nL +", nR: " + nR);
 
-        Integer[] lA = new Integer[nL]; // left array 0,4
-        Integer[] rA = new Integer[nR]; // right array 0, 4
+        Integer[] lA = new Integer[nL]; // left array 0, 3 = 4
+        Integer[] rA = new Integer[nR]; // right array 0, 3 = 4
 
         for(int i = 0; i < nL; i++)
             lA[i] = array[p + i];
