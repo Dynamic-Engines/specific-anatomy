@@ -15,8 +15,8 @@ public class MergeDesc {
         for(int i = 0; i < nL; i++)
             lA[i] = array[p + i];
 
-        for(int j = 0; j < nR; j++)
-            rA[j] = array[q + j + 1];
+        for(int i = 0; i < nR; i++)
+            rA[i] = array[q + i + 1];
 
         System.out.println("-------------------");
         System.out.println(Arrays.toString(rA));
