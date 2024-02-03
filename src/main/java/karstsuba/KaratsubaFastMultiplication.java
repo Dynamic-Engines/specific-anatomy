@@ -8,6 +8,7 @@ import java.util.Random;
  * Karatsuba Algorithm:
  * This is a recursive algorithm used for fast multiplication of big integers.
  * It’s faster than the classical algorithm and works well for large numbers.
+ * XY = a*c + [(a+b)*(c+d) - a*c - b*d]*2^N + b*d * 2^(2N)
  * https://www.youtube.com/watch?v=JCbZayFr9RE&list=PLEAYkSg4uSQ37A6_NrUnTHEKp6EkAxTMa&index=3
  */
 public class KaratsubaFastMultiplication {
@@ -59,6 +60,8 @@ public class KaratsubaFastMultiplication {
         // binary ac + (abcd - ac - bd) 2^n + bd 2^2n  or  2^2n ac + (abcd - ac - bd) 2^n + bd
         // decimal ac + (abcd - ac - bd) 10 ^ n/2 + bd 10 ^ n
         // .shiftLeft(n) = var * 2^n
+        // Gauss's Trick (abcd - ac - bd) = bc + ad, no need to compute two more multiplications
+        // Final formula - XY = a*c + [(a+b)*(c+d) - a*c - b*d]*2^N + b*d * 2^(2N)
         return ac.add(abcd.subtract(ac).subtract(bd).shiftLeft(n)).add(bd.shiftLeft(2 * n));
     }
 
