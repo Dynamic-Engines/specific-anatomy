@@ -1,8 +1,6 @@
 package main.java.divideandconqure.karstsuba;
 
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Karatsuba Algorithm:
