@@ -1,4 +1,4 @@
-package main.java.karstsuba;
+package main.java.divideandconqure.karstsuba;
 
 import java.math.BigInteger;
 import java.util.Arrays;
