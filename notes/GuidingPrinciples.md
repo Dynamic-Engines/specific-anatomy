@@ -1,4 +1,4 @@
-Guiding Principles: 
+## Guiding Principles: 
 
     1. Worst Case Analysis: Our running time holds for evey input of length n.
 
@@ -23,6 +23,6 @@ Guiding Principles:
             1. May be false for smaller input size(n < 90) but will hold for larger size
             2. Only big problems are interesting!
 
-Fast Algorithm: Worst case running time grows slowly with input size.
+## Fast Algorithm: Worst case running time grows slowly with input size.
 
-Holy Grail: Linear running time or close to it.
+## Holy Grail: Linear running time or close to it.
