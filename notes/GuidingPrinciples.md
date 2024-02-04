@@ -24,3 +24,5 @@ Guiding Principles:
             2. Only big problems are interesting!
 
 Fast Algorithm: Worst case running time grows slowly with input size.
+
+Holy Grail: Linear running time or close to it.
